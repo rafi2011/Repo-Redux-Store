@@ -4,9 +4,12 @@
   "description": "mern-shopping",
   "main": "server/server.js",
   "dependencies": {
+    "apollo-server-express": "^3.3.0",
     "debug": "^4.3.2",
     "express": "^4.17.1",
-    "graphql": "^15.5.1"
+    "graphql": "^15.5.1",
+    "mongoose": "^6.0.4",
+    "mongoose-bcrypt": "^1.9.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
