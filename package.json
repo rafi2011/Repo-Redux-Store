@@ -5,6 +5,7 @@
   "main": "server/server.js",
   "dependencies": {
     "debug": "^4.3.2",
+    "express": "^4.17.1",
     "graphql": "^15.5.1"
   },
   "devDependencies": {
@@ -15,7 +16,6 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client/ && npm i && npm run build"
-    
   },
   "repository": {
     "type": "git",
